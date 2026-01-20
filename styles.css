@@ -77,3 +77,32 @@ header p {
     line-height: 1.5;
     color: #555;
 }
+
+.assignments {
+    max-width: 1100px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.assignments h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.assignment-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.assignment-list li {
+    padding: 1rem;
+    background: #f4f4f7;
+    border-radius: 8px;
+    font-weight: 500;
+}
